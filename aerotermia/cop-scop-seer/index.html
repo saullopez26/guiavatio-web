@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COP, SCOP, SEER y EER: qué significan y cómo compararlos</title>
+<meta name="description" content="Qué significan COP, SCOP, SEER, EER y ηs en una bomba de calor o un aire acondicionado, cómo leer la etiqueta energética y cómo comparar equipos.">
+<link rel="canonical" href="https://guiavatio.es/aerotermia/cop-scop-seer/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#0e6b58">
+<meta property="og:site_name" content="Guía Vatio">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="article">
+<meta property="og:title" content="COP, SCOP, SEER y EER: qué significan y cómo compararlos">
+<meta property="og:description" content="Qué significan COP, SCOP, SEER, EER y ηs en una bomba de calor o un aire acondicionado, cómo leer la etiqueta energética y cómo comparar equipos.">
+<meta property="og:url" content="https://guiavatio.es/aerotermia/cop-scop-seer/">
+<meta property="og:image" content="https://guiavatio.es/img/og/aerotermia-cop-scop-seer.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:published_time" content="2026-09-19T09:00:00+02:00">
+<meta property="article:modified_time" content="2026-09-19T09:00:00+02:00">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Guía Vatio" href="/feed.xml">
+<link rel="stylesheet" href="/css/estilos.css?v=193b22bb">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://guiavatio.es/#organization","name":"Guía Vatio","url":"https://guiavatio.es/","logo":{"@type":"ImageObject","url":"https://guiavatio.es/img/logo-512.png","width":512,"height":512}},{"@type":"Article","@id":"https://guiavatio.es/aerotermia/cop-scop-seer/#article","headline":"COP, SCOP, SEER y EER: cómo leer la eficiencia de una bomba de calor","description":"Qué significan COP, SCOP, SEER, EER y ηs en una bomba de calor o un aire acondicionado, cómo leer la etiqueta energética y cómo comparar equipos.","image":["https://guiavatio.es/img/og/aerotermia-cop-scop-seer.jpg"],"datePublished":"2026-09-19T09:00:00+02:00","dateModified":"2026-09-19T09:00:00+02:00","author":{"@type":"Organization","name":"Redacción Guía Vatio","url":"https://guiavatio.es/sobre-nosotros/"},"publisher":{"@id":"https://guiavatio.es/#organization"},"mainEntityOfPage":"https://guiavatio.es/aerotermia/cop-scop-seer/","articleSection":"Aerotermia y calefacción","inLanguage":"es-ES","wordCount":1076},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://guiavatio.es/"},{"@type":"ListItem","position":2,"name":"Aerotermia","item":"https://guiavatio.es/aerotermia/"},{"@type":"ListItem","position":3,"name":"COP, SCOP, SEER y EER: cómo leer la eficiencia de una bomba de calor","item":"https://guiavatio.es/aerotermia/cop-scop-seer/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es un buen SCOP para aerotermia?","acceptedAnswer":{"@type":"Answer","text":"Para una bomba aire-agua en clima medio, un SCOP de 4 o más a 35 °C y de 3,2 o más a 55 °C indica un equipo eficiente. Los mejores modelos superan 4,5–5 a 35 °C. Comprueba siempre en qué zona climática y temperatura de agua está medido el dato."}},{"@type":"Question","name":"¿Qué diferencia hay entre SEER y EER?","acceptedAnswer":{"@type":"Answer","text":"El EER es el rendimiento en refrigeración en unas condiciones fijas de ensayo; el SEER es el rendimiento medio de toda la temporada de verano, con días más y menos calurosos y funcionamiento a carga parcial. El SEER es el que permite estimar el consumo real del aire acondicionado."}},{"@type":"Question","name":"¿Qué significa ηs en la ficha de una bomba de calor?","acceptedAnswer":{"@type":"Answer","text":"Es la eficiencia energética estacional de calefacción, expresada en porcentaje y referida a energía primaria. Se obtiene a partir del SCOP aplicando un factor de conversión y pequeñas correcciones, por eso una bomba con SCOP 4,5 aparece con un ηs cercano al 175 %. Es el valor que determina la clase de la etiqueta."}},{"@type":"Question","name":"¿Dónde puedo comprobar los datos de eficiencia de un equipo?","acceptedAnswer":{"@type":"Answer","text":"En la ficha de producto que exige el reglamento europeo de etiquetado, en la base de datos EPREL de la Unión Europea y, para muchas bombas de calor, en la certificación voluntaria Heat Pump KEYMARK, que publica los resultados de ensayo por modelo."}}]}]}</script>
+</head>
+<body class="is-article">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Guía Vatio, ir a la portada"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#0e6b58"/><path d="M32 11 55 30h-5v22H14V30H9z" fill="#fff"/><path d="M36 22 23 39h8.5L28 51l13-17h-8.5z" fill="#f2a900"/></svg><span class="brand-name">Guía <b>Vatio</b></span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu" class="main-nav" aria-label="Principal"><a href="/aerotermia/" aria-current="page">Aerotermia</a><a href="/placas-solares/">Placas solares</a><a href="/ayudas/">Ayudas</a><a href="/ahorro-energetico/">Ahorro en casa</a><a href="/herramientas/">Calculadoras</a></nav>
+  </div>
+</header>
+<main id="contenido">
+<div class="wrap">
+<nav class="crumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span class="sep">›</span><a href="/aerotermia/">Aerotermia</a><span class="sep">›</span><span aria-current="page">COP, SCOP, SEER y EER: cómo leer la eficiencia de una bomba de calor</span></nav>
+<div class="article-grid">
+<article class="post">
+  <header class="post-head">
+    <a class="cat-pill" style="--c:#1f63b0" href="/aerotermia/">Aerotermia</a>
+    <h1>COP, SCOP, SEER y EER: cómo leer la eficiencia de una bomba de calor</h1>
+    <p class="byline">Por <a href="/sobre-nosotros/">Redacción Guía Vatio</a><span class="dot">·</span>Publicado el <time datetime="2026-09-19">19 de septiembre de 2026</time><span class="dot">·</span>5 min de lectura</p>
+  </header>
+  <aside class="summary" aria-label="Resumen"><p class="summary-title">En resumen</p><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>COP y EER miden el rendimiento en un punto concreto de ensayo; SCOP y SEER, el rendimiento medio de toda la temporada. Para calcular consumos, usa siempre los estacionales.</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Un SCOP de 4 significa 4 kWh de calor por cada kWh eléctrico a lo largo del invierno.</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>La etiqueta de una bomba aire-agua muestra dos clases: una para agua a 35&nbsp;°C (suelo radiante) y otra para 55&nbsp;°C (radiadores). Mira la que corresponde a tu casa.</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Diez centésimas de SCOP de diferencia pueden suponer cientos de euros en la vida útil del equipo.</span></li></ul></aside>
+  <details class="toc-mobile"><summary>Contenido del artículo</summary><ol><li><a href="#los-cuatro-indicadores-en-una-tabla">Los cuatro indicadores en una tabla</a></li><li><a href="#cop-el-dato-del-folleto">COP: el dato del folleto</a></li><li><a href="#scop-el-dato-que-de-verdad-importa">SCOP: el dato que de verdad importa</a></li><li><a href="#s-y-la-etiqueta-energetica">ηs y la etiqueta energética</a></li><li><a href="#eer-y-seer-la-eficiencia-en-verano">EER y SEER: la eficiencia en verano</a></li><li><a href="#de-la-eficiencia-a-los-euros">De la eficiencia a los euros</a></li><li><a href="#como-comparar-dos-equipos-sin-caer-en-trampas">Cómo comparar dos equipos sin caer en trampas</a></li><li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li></ol></details>
+  <div class="prose">
+<p class="lede">Las fichas técnicas de bombas de calor y aires acondicionados están llenas de siglas: COP, SCOP, EER, SEER, ηs, A+++... Entenderlas es la mejor defensa frente a presupuestos que presumen de «COP de 5» sin decir en qué condiciones. En esta guía explicamos qué mide cada indicador, cómo leer la etiqueta energética y cómo traducir las diferencias de eficiencia a euros.</p>
+
+<h2 id="los-cuatro-indicadores-en-una-tabla">Los cuatro indicadores en una tabla</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Sigla</th><th>Nombre</th><th>Qué mide</th><th>Úsalo para</th></tr></thead>
+<tbody>
+<tr><td><strong>COP</strong></td><td>Coefficient of Performance</td><td>Calor entregado ÷ electricidad consumida, en unas condiciones fijas de ensayo (por ejemplo, 7&nbsp;°C fuera y agua a 35&nbsp;°C).</td><td>Comparar equipos en igualdad de condiciones.</td></tr>
+<tr><td><strong>SCOP</strong></td><td>Seasonal COP</td><td>Rendimiento medio en calefacción durante toda la temporada, en un clima de referencia.</td><td>Calcular el consumo anual de calefacción.</td></tr>
+<tr><td><strong>EER</strong></td><td>Energy Efficiency Ratio</td><td>Frío entregado ÷ electricidad consumida, en condiciones fijas (por ejemplo, 35&nbsp;°C fuera).</td><td>Comparar equipos en refrigeración.</td></tr>
+<tr><td><strong>SEER</strong></td><td>Seasonal EER</td><td>Rendimiento medio en refrigeración durante todo el verano.</td><td>Calcular el consumo anual de aire acondicionado.</td></tr>
+</tbody>
+</table></div>
+<p>La regla práctica es sencilla: <strong>los valores instantáneos (COP, EER) sirven para comparar; los estacionales (SCOP, SEER) sirven para calcular</strong>.</p>
+
+<h2 id="cop-el-dato-del-folleto">COP: el dato del folleto</h2>
+<p>El COP se mide en laboratorio en condiciones normalizadas. Para bombas aire-agua, la referencia más citada es <strong>A7/W35</strong>: aire exterior a 7&nbsp;°C y agua de salida a 35&nbsp;°C. Un COP de 4,8 en A7/W35 significa que, en esas condiciones exactas, la máquina entrega 4,8 kWh de calor por cada kWh eléctrico.</p>
+<p>El problema es que tu casa no vive siempre a 7&nbsp;°C ni con agua a 35&nbsp;°C. En una mañana de enero a −2&nbsp;°C, con radiadores a 50&nbsp;°C, esa misma máquina puede trabajar con un COP de 2,5. Por eso el COP aislado dice poco del consumo real.</p>
+<div class="callout warn"><p><strong>Trampa habitual:</strong> anunciar el COP en A7/W35 para vender una bomba que en tu casa trabajará con agua a 55&nbsp;°C. Pide siempre el dato en la temperatura de agua que vas a usar.</p></div>
+
+<h2 id="scop-el-dato-que-de-verdad-importa">SCOP: el dato que de verdad importa</h2>
+<p>El SCOP resume el comportamiento de la bomba a lo largo de toda una temporada de calefacción. Se calcula según la norma EN 14825 ponderando el rendimiento en distintas temperaturas exteriores, con el peso que tiene cada una en un clima de referencia, y teniendo en cuenta que la mayor parte del tiempo la bomba trabaja a carga parcial.</p>
+<p>La normativa europea define tres climas de referencia:</p>
+<ul>
+<li><strong>Clima medio</strong> (referencia Estrasburgo): es el que aparece por defecto en la etiqueta y el que mejor representa buena parte del interior de España.</li>
+<li><strong>Clima más cálido</strong> (referencia Atenas): se parece a la costa mediterránea y al sur peninsular. El SCOP sale más alto.</li>
+<li><strong>Clima más frío</strong> (referencia Helsinki): más duro que cualquier zona poblada de España.</li>
+</ul>
+<p>Además, se da un SCOP para <strong>aplicación de baja temperatura (35&nbsp;°C)</strong> y otro para <strong>media temperatura (55&nbsp;°C)</strong>. Un mismo equipo puede tener un SCOP de 4,6 a 35&nbsp;°C y de 3,3 a 55&nbsp;°C.</p>
+
+<h2 id="s-y-la-etiqueta-energetica">ηs y la etiqueta energética</h2>
+<p>En la etiqueta y en la ficha de producto de una bomba de calor aparece también la <strong>eficiencia energética estacional de calefacción (ηs)</strong>, en porcentaje. Es el SCOP expresado en términos de energía primaria: se divide por un coeficiente de conversión de la electricidad y se aplican pequeñas correcciones. Por eso los valores superan el 100&nbsp;%: una bomba con SCOP 4,5 muestra un ηs cercano al 175&nbsp;%.</p>
+<p>La clase de eficiencia (de A+++ a D para los aparatos de calefacción) se asigna en función del ηs. La etiqueta de una bomba aire-agua muestra <strong>dos clases</strong>, una para baja temperatura y otra para media temperatura, y un mapa de Europa con la potencia y el nivel sonoro en cada clima. La etiqueta de un aire acondicionado muestra, en cambio, el SEER y el SCOP con sus clases correspondientes.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Lo que ves en la etiqueta</th><th>Qué significa para ti</th></tr></thead>
+<tbody>
+<tr><td>Clase a 35 °C (icono de suelo radiante)</td><td>La relevante si tienes o vas a poner suelo radiante.</td></tr>
+<tr><td>Clase a 55 °C (icono de radiador)</td><td>La relevante si conservas radiadores convencionales.</td></tr>
+<tr><td>Potencia nominal por zona climática (kW)</td><td>Orienta sobre la potencia útil en clima frío, medio y cálido.</td></tr>
+<tr><td>Nivel de potencia sonora interior y exterior (dB)</td><td>Compara ruido entre modelos: 3&nbsp;dB más es el doble de energía sonora.</td></tr>
+</tbody>
+</table></div>
+
+<h2 id="eer-y-seer-la-eficiencia-en-verano">EER y SEER: la eficiencia en verano</h2>
+<p>En refrigeración la lógica es la misma. El <strong>EER</strong> se mide en condiciones fijas (típicamente 35&nbsp;°C en el exterior) y el <strong>SEER</strong> promedia toda la temporada. Un aire acondicionado moderno de tipo split tiene SEER de 6 a 9; los mejores superan 9. Con un SEER de 7, cada kWh eléctrico retira 7 kWh de calor de la vivienda.</p>
+
+<h2 id="de-la-eficiencia-a-los-euros">De la eficiencia a los euros</h2>
+<p>La diferencia de rendimiento entre dos equipos parece pequeña en la ficha, pero se acumula año tras año. Ejemplo con una vivienda que necesita 10.000 kWh de calefacción al año y electricidad a 0,20&nbsp;€/kWh:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>SCOP</th><th class="num">Consumo anual</th><th class="num">Coste anual</th><th class="num">Coste en 15 años</th></tr></thead>
+<tbody>
+<tr><td>3,4</td><td class="num">2.941 kWh</td><td class="num">588 €</td><td class="num">8.824 €</td></tr>
+<tr><td>3,8</td><td class="num">2.632 kWh</td><td class="num">526 €</td><td class="num">7.895 €</td></tr>
+<tr><td>4,2</td><td class="num">2.381 kWh</td><td class="num">476 €</td><td class="num">7.143 €</td></tr>
+<tr><td>4,6</td><td class="num">2.174 kWh</td><td class="num">435 €</td><td class="num">6.522 €</td></tr>
+</tbody>
+</table></div>
+<p>Pasar de un SCOP de 3,8 a uno de 4,2 ahorra unos 750&nbsp;€ en 15 años. Si el equipo más eficiente cuesta 500&nbsp;€ más, compensa; si cuesta 2.000&nbsp;€ más, probablemente no. Y, sobre todo, la instalación importa tanto como el equipo: una bomba excelente mal dimensionada o trabajando a 60&nbsp;°C rendirá como una mediocre.</p>
+
+<h2 id="como-comparar-dos-equipos-sin-caer-en-trampas">Cómo comparar dos equipos sin caer en trampas</h2>
+<ol>
+<li><strong>Compara SCOP con SCOP</strong>, en el mismo clima de referencia y a la misma temperatura de agua.</li>
+<li><strong>Usa la temperatura de tu instalación:</strong> 35&nbsp;°C si tienes suelo radiante; 55&nbsp;°C si mantienes radiadores convencionales.</li>
+<li><strong>Consulta fuentes independientes:</strong> la base de datos europea EPREL y la certificación Heat Pump KEYMARK publican los datos de ensayo por modelo.</li>
+<li><strong>Mira la potencia a baja temperatura exterior</strong> (por ejemplo, a −7&nbsp;°C) para asegurarte de que el equipo cubre tu casa en los días fríos sin abusar de la resistencia de apoyo.</li>
+<li><strong>No te fíes de un único número:</strong> un COP espectacular en condiciones favorables no dice nada del rendimiento estacional.</li>
+</ol>
+<p>Con el SCOP adecuado en la mano, puedes estimar tu consumo con el método de <a href="/aerotermia/consumo-aerotermia/">cuánto consume la aerotermia</a> o con la <a href="/herramientas/calculadora-aerotermia/">calculadora de aerotermia</a>.</p>
+  </div>
+  <section class="faq" id="preguntas-frecuentes"><h2>Preguntas frecuentes</h2><details><summary>¿Qué es un buen SCOP para aerotermia?</summary><div><p>Para una bomba aire-agua en clima medio, un SCOP de 4 o más a 35&nbsp;°C y de 3,2 o más a 55&nbsp;°C indica un equipo eficiente. Los mejores modelos superan 4,5–5 a 35&nbsp;°C. Comprueba siempre en qué zona climática y temperatura de agua está medido el dato.</p></div></details><details><summary>¿Qué diferencia hay entre SEER y EER?</summary><div><p>El EER es el rendimiento en refrigeración en unas condiciones fijas de ensayo; el SEER es el rendimiento medio de toda la temporada de verano, con días más y menos calurosos y funcionamiento a carga parcial. El SEER es el que permite estimar el consumo real del aire acondicionado.</p></div></details><details><summary>¿Qué significa ηs en la ficha de una bomba de calor?</summary><div><p>Es la eficiencia energética estacional de calefacción, expresada en porcentaje y referida a energía primaria. Se obtiene a partir del SCOP aplicando un factor de conversión y pequeñas correcciones, por eso una bomba con SCOP 4,5 aparece con un ηs cercano al 175&nbsp;%. Es el valor que determina la clase de la etiqueta.</p></div></details><details><summary>¿Dónde puedo comprobar los datos de eficiencia de un equipo?</summary><div><p>En la ficha de producto que exige el reglamento europeo de etiquetado, en la base de datos EPREL de la Unión Europea y, para muchas bombas de calor, en la certificación voluntaria Heat Pump KEYMARK, que publica los resultados de ensayo por modelo.</p></div></details></section>
+  
+  <section class="sources"><h2>Fuentes y normativa consultada</h2><ol><li><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32013R0811" target="_blank" rel="noopener">Reglamento Delegado (UE) 811/2013 — etiquetado energético de aparatos de calefacción (EUR-Lex)</a></li><li><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32013R0813" target="_blank" rel="noopener">Reglamento (UE) 813/2013 — requisitos de diseño ecológico de aparatos de calefacción (EUR-Lex)</a></li><li><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32011R0626" target="_blank" rel="noopener">Reglamento Delegado (UE) 626/2011 — etiquetado energético de acondicionadores de aire (EUR-Lex)</a></li><li><a href="https://eprel.ec.europa.eu/" target="_blank" rel="noopener">EPREL — Base de datos europea de productos con etiqueta energética</a></li><li><a href="https://www.heatpumpkeymark.com/" target="_blank" rel="noopener">Heat Pump KEYMARK — certificación y datos de ensayo de bombas de calor</a></li></ol>
+  <p class="note">Última revisión de datos: 19 de septiembre de 2026. Los precios de mercado son orientativos y pueden variar según zona, instalador y momento; las cifras normativas proceden de las fuentes enlazadas.</p></section>
+  <div class="author-box"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#0e6b58"/><path d="M32 11 55 30h-5v22H14V30H9z" fill="#fff"/><path d="M36 22 23 39h8.5L28 51l13-17h-8.5z" fill="#f2a900"/></svg><div><p class="author-name">Redacción Guía Vatio</p><p>Equipo editorial de Guía Vatio. Contrastamos cada dato con la normativa publicada en el BOE y con fuentes oficiales (IDAE, MITECO, CNMC, Agencia Tributaria). <a href="/politica-editorial/">Cómo trabajamos</a> · <a href="/contacto/">Envíanos una corrección</a>.</p></div></div>
+</article>
+<aside class="sidebar">
+  <div class="side-box toc-side"><p class="side-title">En este artículo</p><ol><li><a href="#los-cuatro-indicadores-en-una-tabla">Los cuatro indicadores en una tabla</a></li><li><a href="#cop-el-dato-del-folleto">COP: el dato del folleto</a></li><li><a href="#scop-el-dato-que-de-verdad-importa">SCOP: el dato que de verdad importa</a></li><li><a href="#s-y-la-etiqueta-energetica">ηs y la etiqueta energética</a></li><li><a href="#eer-y-seer-la-eficiencia-en-verano">EER y SEER: la eficiencia en verano</a></li><li><a href="#de-la-eficiencia-a-los-euros">De la eficiencia a los euros</a></li><li><a href="#como-comparar-dos-equipos-sin-caer-en-trampas">Cómo comparar dos equipos sin caer en trampas</a></li><li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li></ol></div>
+  <div class="side-box"><p class="side-title">Calculadoras gratuitas</p><ul class="side-tools"><li><a href="/herramientas/calculadora-placas-solares/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h4"/></svg><span>Placas solares</span></a></li><li><a href="/herramientas/calculadora-aerotermia/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h4"/></svg><span>Aerotermia</span></a></li><li><a href="/herramientas/calculadora-consumo-electrico/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h4"/></svg><span>Consumo eléctrico</span></a></li></ul></div>
+</aside>
+</div>
+<section class="related"><h2>Sigue leyendo</h2><div class="card-grid"><article class="card"><span class="card-cat" style="--c:#1f63b0">Aerotermia</span><h3><a href="/aerotermia/que-es-la-aerotermia/">Qué es la aerotermia, cómo funciona y cuándo compensa</a></h3><p>Qué es la aerotermia, cómo funciona una bomba de calor, qué tipos hay, cuánto ahorra y en qué casos compensa frente al gas o el gasóleo. Guía actualizada a 2026.</p><p class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>9 min de lectura</p></article><article class="card"><span class="card-cat" style="--c:#1f63b0">Aerotermia</span><h3><a href="/aerotermia/consumo-aerotermia/">¿Cuánto consume la aerotermia? Cálculo real al mes y al año</a></h3><p>Cómo calcular el consumo eléctrico de la aerotermia con la demanda de tu casa y el SCOP. Tres ejemplos resueltos, consumo mes a mes y trucos para gastar menos.</p><p class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>6 min de lectura</p></article><article class="card"><span class="card-cat" style="--c:#1f63b0">Aerotermia</span><h3><a href="/aerotermia/precio-aerotermia/">Precio de la aerotermia en 2026: cuánto cuesta instalarla según tu vivienda</a></h3><p>Precios reales de la aerotermia en 2026 por tipo de vivienda y potencia, desglose de un presupuesto, costes ocultos y cuánto baja el precio con IRPF, CAE e ICIO.</p><p class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>7 min de lectura</p></article></div></section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand brand-light" href="/"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#0e6b58"/><path d="M32 11 55 30h-5v22H14V30H9z" fill="#fff"/><path d="M36 22 23 39h8.5L28 51l13-17h-8.5z" fill="#f2a900"/></svg><span class="brand-name">Guía <b>Vatio</b></span></a>
+      <p>Guías independientes sobre aerotermia, autoconsumo solar, ayudas y ahorro energético en España. Explicamos cada cifra y citamos la normativa de la que sale.</p>
+    </div>
+    <div><p class="footer-title">Temas</p><ul><li><a href="/aerotermia/">Aerotermia y calefacción</a></li><li><a href="/placas-solares/">Placas solares y autoconsumo</a></li><li><a href="/ayudas/">Ayudas, deducciones y CAE</a></li><li><a href="/ahorro-energetico/">Ahorro energético en casa</a></li></ul></div>
+    <div><p class="footer-title">Calculadoras</p><ul><li><a href="/herramientas/calculadora-placas-solares/">Placas solares</a></li><li><a href="/herramientas/calculadora-aerotermia/">Aerotermia</a></li><li><a href="/herramientas/calculadora-consumo-electrico/">Consumo eléctrico</a></li></ul></div>
+    <div><p class="footer-title">Guía Vatio</p><ul>
+      <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
+      <li><a href="/politica-editorial/">Política editorial</a></li>
+      <li><a href="/contacto/">Contacto</a></li>
+      <li><a href="/mapa-del-sitio/">Mapa del sitio</a></li>
+    </ul></div>
+    <div><p class="footer-title">Legal</p><ul>
+      <li><a href="/aviso-legal/">Aviso legal</a></li>
+      <li><a href="/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="/politica-de-cookies/">Política de cookies</a></li>
+      
+    </ul></div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Guía Vatio. La información de esta web es divulgativa y orientativa: no sustituye el asesoramiento de un instalador habilitado, un técnico certificador o un asesor fiscal.</p>
+  </div>
+</footer>
+<script src="/js/main.js?v=193b22bb" defer></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de consumo eléctrico por electrodoméstico</title>
+<meta name="description" content="Calcula gratis cuánto consume cada electrodoméstico de tu casa en kWh y euros al mes y al año, y descubre qué aparatos pesan más en tu factura de la luz.">
+<link rel="canonical" href="https://guiavatio.es/herramientas/calculadora-consumo-electrico/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#0e6b58">
+<meta property="og:site_name" content="Guía Vatio">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de consumo eléctrico por electrodoméstico">
+<meta property="og:description" content="Calcula gratis cuánto consume cada electrodoméstico de tu casa en kWh y euros al mes y al año, y descubre qué aparatos pesan más en tu factura de la luz.">
+<meta property="og:url" content="https://guiavatio.es/herramientas/calculadora-consumo-electrico/">
+<meta property="og:image" content="https://guiavatio.es/img/og/herramienta-calculadora-consumo-electrico.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Guía Vatio" href="/feed.xml">
+<link rel="stylesheet" href="/css/estilos.css?v=193b22bb">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://guiavatio.es/#organization","name":"Guía Vatio","url":"https://guiavatio.es/","logo":{"@type":"ImageObject","url":"https://guiavatio.es/img/logo-512.png","width":512,"height":512}},{"@type":"WebApplication","name":"Calculadora de consumo eléctrico de tu casa por aparato","url":"https://guiavatio.es/herramientas/calculadora-consumo-electrico/","applicationCategory":"UtilitiesApplication","operatingSystem":"Cualquiera (navegador web)","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"description":"Calcula gratis cuánto consume cada electrodoméstico de tu casa en kWh y euros al mes y al año, y descubre qué aparatos pesan más en tu factura de la luz.","inLanguage":"es-ES"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://guiavatio.es/"},{"@type":"ListItem","position":2,"name":"Calculadoras","item":"https://guiavatio.es/herramientas/"},{"@type":"ListItem","position":3,"name":"Consumo eléctrico","item":"https://guiavatio.es/herramientas/calculadora-consumo-electrico/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Por qué el total no coincide con mi factura?","acceptedAnswer":{"@type":"Answer","text":"Porque la calculadora estima el consumo a partir de potencias y horas de uso típicas, y la factura mide el consumo real. Además, la factura incluye el término de potencia, el alquiler del contador y los impuestos, que no dependen de los kWh. Ajusta horas y potencias hasta que el total de kWh se parezca al de tu factura."}},{"@type":"Question","name":"¿Dónde veo la potencia de un aparato?","acceptedAnswer":{"@type":"Answer","text":"En la placa de características (una etiqueta en la parte trasera o inferior), en el manual o en la ficha del producto. Para frigoríficos, lavadoras y lavavajillas es mejor usar el consumo de la etiqueta energética."}},{"@type":"Question","name":"¿Se guardan los datos que introduzco?","acceptedAnswer":{"@type":"Answer","text":"No. La calculadora funciona por completo en tu navegador y no envía ni guarda la información que escribes."}}]}]}</script>
+</head>
+<body class="is-tool">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Guía Vatio, ir a la portada"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#0e6b58"/><path d="M32 11 55 30h-5v22H14V30H9z" fill="#fff"/><path d="M36 22 23 39h8.5L28 51l13-17h-8.5z" fill="#f2a900"/></svg><span class="brand-name">Guía <b>Vatio</b></span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu" class="main-nav" aria-label="Principal"><a href="/aerotermia/">Aerotermia</a><a href="/placas-solares/">Placas solares</a><a href="/ayudas/">Ayudas</a><a href="/ahorro-energetico/">Ahorro en casa</a><a href="/herramientas/" aria-current="page">Calculadoras</a></nav>
+  </div>
+</header>
+<main id="contenido">
+<div class="wrap">
+<nav class="crumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span class="sep">›</span><a href="/herramientas/">Calculadoras</a><span class="sep">›</span><span aria-current="page">Consumo eléctrico</span></nav>
+<article class="tool">
+  <header class="post-head tool-head">
+    <span class="cat-pill" style="--c:#0e6b58">Calculadora gratuita</span>
+    <h1>Calculadora de consumo eléctrico de tu casa por aparato</h1>
+    <p class="tool-lede">Marca los aparatos que tienes, ajusta su potencia y sus horas de uso y descubre cuánto consume cada uno en kWh y en euros, cuáles pesan más en tu factura y cuánto gastas en total.</p>
+  </header>
+  <div class="calc calc-wide" id="calc-ce">
+  <div class="calc-form">
+    <h2 id="tus-aparatos">Tus aparatos</h2>
+    <div class="appl-scroll">
+      <div class="table-wrap"><table class="appl-table">
+        <thead><tr><th></th><th>Aparato</th><th>Uso</th><th class="num">kWh/año</th><th class="num">€/año</th></tr></thead>
+        <tbody id="ce-rows"></tbody>
+      </table></div>
+    </div>
+    <button type="button" class="btn-small" id="ce-add">+ Añadir otro aparato</button>
+    <div class="field" style="margin-top:18px;max-width:260px">
+      <label for="ce-precio">Precio de la luz (€/kWh)</label>
+      <input type="number" id="ce-precio" value="0.20" step="0.01" min="0.05" max="0.6">
+      <small>Parte variable de tu factura con impuestos.</small>
+    </div>
+  </div>
+  <div class="calc-result" aria-live="polite">
+    <h2 id="resumen">Resumen</h2>
+    <div class="stats">
+      <div class="stat hl"><span class="v" id="ce-r-mes">–</span><span class="k">al mes (energía)</span></div>
+      <div class="stat"><span class="v" id="ce-r-ano">–</span><span class="k">al año</span></div>
+      <div class="stat"><span class="v" id="ce-r-kwh">–</span><span class="k">kWh al año</span></div>
+      <div class="stat"><span class="v" id="ce-r-kwhmes">–</span><span class="k">kWh al mes</span></div>
+    </div>
+    <p class="result-note" style="margin-top:0"><strong>Los que más gastan</strong></p>
+    <div id="ce-top"></div>
+    <p class="result-note">Solo incluye la energía consumida. La factura suma además el término de potencia, el alquiler del contador y los impuestos.</p>
+  </div>
+</div>
+
+<div class="prose">
+<h2 id="como-usar-la-calculadora">Cómo usar la calculadora</h2>
+<ul>
+<li><strong>Marca o desmarca</strong> cada aparato según lo tengas en casa.</li>
+<li>Para los aparatos que se usan por horas, ajusta la <strong>potencia en vatios</strong> y las <strong>horas al día</strong> y días a la semana.</li>
+<li>Para los que funcionan por ciclos (lavadora, lavavajillas, horno, secadora), ajusta el <strong>consumo por uso en kWh</strong> y los usos por semana. La etiqueta energética indica el consumo por ciclo o por cada 100 ciclos.</li>
+<li>Para los aparatos de temporada (aire acondicionado, radiadores), indica los <strong>meses de uso</strong>.</li>
+</ul>
+
+<h2 id="como-calculamos">Cómo calculamos</h2>
+<p>Para los aparatos por horas: kWh/año = potencia (W) × horas al día × días a la semana ÷ 7 × días del año en uso ÷ 1.000. Para los aparatos por ciclos: kWh/año = consumo por uso × usos por semana × semanas en uso. El coste es el consumo por el precio del kWh que indiques. Los valores precargados son típicos de un hogar de tres personas y proceden de las fichas técnicas habituales y de las guías del IDAE; tus aparatos pueden consumir más o menos.</p>
+<p>Encontrarás la tabla completa con explicaciones y consejos en <a href="/ahorro-energetico/consumo-electrodomesticos/">cuánto consume cada electrodoméstico</a>. Si vas a cambiar tu potencia contratada, consulta también <a href="/ahorro-energetico/que-potencia-contratar/">qué potencia contratar</a>.</p>
+</div>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  // t: 'h' = por horas (w, h, d = días/semana, m = meses) · 'c' = por ciclos (k = kWh/uso, u = usos/semana, m = meses)
+  var APARATOS = [
+    { n: 'Frigorífico combi', t: 'h', w: 30, h: 24, d: 7, m: 12, on: true },
+    { n: 'Termo eléctrico', t: 'h', w: 1500, h: 3, d: 7, m: 12, on: false },
+    { n: 'Lavadora (40 °C)', t: 'c', k: 0.8, u: 4, m: 12, on: true },
+    { n: 'Lavavajillas (eco)', t: 'c', k: 0.9, u: 5, m: 12, on: true },
+    { n: 'Horno eléctrico', t: 'c', k: 1.2, u: 3, m: 12, on: true },
+    { n: 'Placa de inducción', t: 'h', w: 1200, h: 0.8, d: 7, m: 12, on: true },
+    { n: 'Microondas', t: 'h', w: 1000, h: 0.17, d: 7, m: 12, on: true },
+    { n: 'Secadora (bomba de calor)', t: 'c', k: 1.5, u: 2, m: 12, on: false },
+    { n: 'Televisor', t: 'h', w: 100, h: 4, d: 7, m: 12, on: true },
+    { n: 'Ordenador portátil', t: 'h', w: 40, h: 6, d: 5, m: 12, on: true },
+    { n: 'Router wifi', t: 'h', w: 10, h: 24, d: 7, m: 12, on: true },
+    { n: 'Iluminación LED', t: 'h', w: 80, h: 4, d: 7, m: 12, on: true },
+    { n: 'Aparatos en espera (stand-by)', t: 'h', w: 25, h: 24, d: 7, m: 12, on: true },
+    { n: 'Aire acondicionado', t: 'h', w: 900, h: 5, d: 7, m: 3, on: true },
+    { n: 'Radiador eléctrico', t: 'h', w: 1500, h: 4, d: 7, m: 4, on: false },
+    { n: 'Secador de pelo', t: 'h', w: 2000, h: 0.17, d: 7, m: 12, on: true },
+    { n: 'Coche eléctrico (carga)', t: 'c', k: 7, u: 3, m: 12, on: false }
+  ];
+  var eur = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0, useGrouping: 'always' });
+  var eur2 = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', minimumFractionDigits: 2, maximumFractionDigits: 2, useGrouping: 'always' });
+  var num = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0, useGrouping: 'always' });
+  var tbody = $('ce-rows');
+
+  function input(val, step, min, label, onChange) {
+    var i = document.createElement('input');
+    i.type = 'number'; i.value = val; i.step = step; i.min = min;
+    i.setAttribute('aria-label', label); i.title = label;
+    i.addEventListener('input', onChange);
+    return i;
+  }
+  function small(text) { var s = document.createElement('span'); s.textContent = text; s.style.cssText = 'font-size:12px;color:#66736c;margin:0 4px'; return s; }
+  function kwhAno(a) {
+    var dias = 365 * a.m / 12;
+    return a.t === 'h' ? a.w * a.h * (a.d / 7) * dias / 1000 : a.k * a.u * (dias / 7);
+  }
+  function addRow(a) {
+    var tr = document.createElement('tr');
+    var td0 = document.createElement('td');
+    var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = a.on;
+    cb.setAttribute('aria-label', 'Incluir ' + a.n);
+    cb.addEventListener('change', function () { a.on = cb.checked; calc(); });
+    td0.appendChild(cb);
+    var td1 = document.createElement('td');
+    if (a.custom) {
+      var nm = document.createElement('input'); nm.type = 'text'; nm.value = a.n; nm.setAttribute('aria-label', 'Nombre del aparato');
+      nm.addEventListener('input', function () { a.n = nm.value || 'Aparato'; calc(); });
+      td1.appendChild(nm);
+    } else { td1.textContent = a.n; }
+    var td2 = document.createElement('td'); td2.style.whiteSpace = 'nowrap';
+    if (a.t === 'h') {
+      td2.appendChild(input(a.w, 5, 0, 'Potencia en vatios', function (e) { a.w = parseFloat(e.target.value) || 0; calc(); }));
+      td2.appendChild(small('W ×'));
+      td2.appendChild(input(a.h, 0.1, 0, 'Horas al día', function (e) { a.h = parseFloat(e.target.value) || 0; calc(); }));
+      td2.appendChild(small('h/día ·'));
+      td2.appendChild(input(a.d, 1, 0, 'Días por semana', function (e) { a.d = Math.min(7, parseFloat(e.target.value) || 0); calc(); }));
+      td2.appendChild(small('d/sem'));
+    } else {
+      td2.appendChild(input(a.k, 0.1, 0, 'kWh por uso', function (e) { a.k = parseFloat(e.target.value) || 0; calc(); }));
+      td2.appendChild(small('kWh ×'));
+      td2.appendChild(input(a.u, 1, 0, 'Usos por semana', function (e) { a.u = parseFloat(e.target.value) || 0; calc(); }));
+      td2.appendChild(small('usos/sem'));
+    }
+    td2.appendChild(small('·'));
+    td2.appendChild(input(a.m, 1, 0, 'Meses de uso al año', function (e) { a.m = Math.min(12, parseFloat(e.target.value) || 0); calc(); }));
+    td2.appendChild(small('meses'));
+    var td3 = document.createElement('td'); td3.className = 'num';
+    var td4 = document.createElement('td'); td4.className = 'num';
+    a._kwh = td3; a._eur = td4; a._tr = tr;
+    [td0, td1, td2, td3, td4].forEach(function (td) { tr.appendChild(td); });
+    tbody.appendChild(tr);
+  }
+  function calc() {
+    var precio = parseFloat($('ce-precio').value); if (!isFinite(precio)) precio = 0.2;
+    var total = 0, lista = [];
+    APARATOS.forEach(function (a) {
+      var k = kwhAno(a);
+      a._kwh.textContent = num.format(k);
+      a._eur.textContent = eur.format(k * precio);
+      a._tr.className = a.on ? '' : 'off';
+      if (a.on) { total += k; lista.push({ n: a.n, k: k }); }
+    });
+    $('ce-r-kwh').textContent = num.format(total);
+    $('ce-r-kwhmes').textContent = num.format(total / 12);
+    $('ce-r-ano').textContent = eur.format(total * precio);
+    $('ce-r-mes').textContent = eur2.format(total * precio / 12);
+    lista.sort(function (x, y) { return y.k - x.k; });
+    var top = $('ce-top'); top.textContent = '';
+    var max = lista.length ? lista[0].k : 1;
+    lista.slice(0, 6).forEach(function (it) {
+      var row = document.createElement('div'); row.style.margin = '0 0 10px';
+      var lab = document.createElement('div');
+      lab.style.cssText = 'display:flex;justify-content:space-between;font-size:.9rem;gap:8px';
+      var a = document.createElement('span'); a.textContent = it.n;
+      var b = document.createElement('strong'); b.textContent = eur.format(it.k * precio) + '/año · ' + num.format(total ? it.k / total * 100 : 0) + ' %';
+      lab.appendChild(a); lab.appendChild(b);
+      var bar = document.createElement('div'); bar.className = 'bar';
+      var fill = document.createElement('i'); fill.style.width = (it.k / max * 100) + '%';
+      bar.appendChild(fill);
+      row.appendChild(lab); row.appendChild(bar); top.appendChild(row);
+    });
+  }
+  APARATOS.forEach(addRow);
+  $('ce-add').addEventListener('click', function () {
+    var a = { n: 'Otro aparato', t: 'h', w: 100, h: 1, d: 7, m: 12, on: true, custom: true };
+    APARATOS.push(a); addRow(a); calc();
+  });
+  $('ce-precio').addEventListener('input', calc);
+  calc();
+})();
+</script>
+  <section class="faq narrow"><h2>Preguntas frecuentes</h2><details><summary>¿Por qué el total no coincide con mi factura?</summary><div><p>Porque la calculadora estima el consumo a partir de potencias y horas de uso típicas, y la factura mide el consumo real. Además, la factura incluye el término de potencia, el alquiler del contador y los impuestos, que no dependen de los kWh. Ajusta horas y potencias hasta que el total de kWh se parezca al de tu factura.</p></div></details><details><summary>¿Dónde veo la potencia de un aparato?</summary><div><p>En la placa de características (una etiqueta en la parte trasera o inferior), en el manual o en la ficha del producto. Para frigoríficos, lavadoras y lavavajillas es mejor usar el consumo de la etiqueta energética.</p></div></details><details><summary>¿Se guardan los datos que introduzco?</summary><div><p>No. La calculadora funciona por completo en tu navegador y no envía ni guarda la información que escribes.</p></div></details></section>
+</article>
+<section class="related"><h2>Guías relacionadas</h2><div class="card-grid"><article class="card"><span class="card-cat" style="--c:#0e6b58">Ahorro en casa</span><h3><a href="/ahorro-energetico/consumo-electrodomesticos/">Cuánto consume cada electrodoméstico: tabla en kWh y euros</a></h3><p>Tabla con el consumo real de frigorífico, lavadora, termo, horno, aire acondicionado y demás aparatos en kWh y euros al año, cómo calcularlo y cómo gastar menos.</p><p class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>4 min de lectura</p></article><article class="card"><span class="card-cat" style="--c:#0e6b58">Ahorro en casa</span><h3><a href="/ahorro-energetico/que-potencia-contratar/">Qué potencia de luz contratar: cómo calcularla y cuánto puedes ahorrar</a></h3><p>Cómo calcular la potencia de luz que necesitas, cuánto cuesta cada kW en 2026, cómo ver tu potencia máxima real y cuánto ahorras bajándola.</p><p class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>5 min de lectura</p></article><article class="card"><span class="card-cat" style="--c:#b86e00">Placas solares</span><h3><a href="/placas-solares/cuantas-placas-solares-necesito/">Cuántas placas solares necesito: cálculo paso a paso para tu casa</a></h3><p>Calcula cuántos paneles solares necesitas según tu consumo, la radiación de tu zona y tu tejado. Método paso a paso, tablas y errores frecuentes.</p><p class="card-meta"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>6 min de lectura</p></article></div></section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand brand-light" href="/"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#0e6b58"/><path d="M32 11 55 30h-5v22H14V30H9z" fill="#fff"/><path d="M36 22 23 39h8.5L28 51l13-17h-8.5z" fill="#f2a900"/></svg><span class="brand-name">Guía <b>Vatio</b></span></a>
+      <p>Guías independientes sobre aerotermia, autoconsumo solar, ayudas y ahorro energético en España. Explicamos cada cifra y citamos la normativa de la que sale.</p>
+    </div>
+    <div><p class="footer-title">Temas</p><ul><li><a href="/aerotermia/">Aerotermia y calefacción</a></li><li><a href="/placas-solares/">Placas solares y autoconsumo</a></li><li><a href="/ayudas/">Ayudas, deducciones y CAE</a></li><li><a href="/ahorro-energetico/">Ahorro energético en casa</a></li></ul></div>
+    <div><p class="footer-title">Calculadoras</p><ul><li><a href="/herramientas/calculadora-placas-solares/">Placas solares</a></li><li><a href="/herramientas/calculadora-aerotermia/">Aerotermia</a></li><li><a href="/herramientas/calculadora-consumo-electrico/">Consumo eléctrico</a></li></ul></div>
+    <div><p class="footer-title">Guía Vatio</p><ul>
+      <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
+      <li><a href="/politica-editorial/">Política editorial</a></li>
+      <li><a href="/contacto/">Contacto</a></li>
+      <li><a href="/mapa-del-sitio/">Mapa del sitio</a></li>
+    </ul></div>
+    <div><p class="footer-title">Legal</p><ul>
+      <li><a href="/aviso-legal/">Aviso legal</a></li>
+      <li><a href="/politica-de-privacidad/">Política de privacidad</a></li>
+      <li><a href="/politica-de-cookies/">Política de cookies</a></li>
+      
+    </ul></div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Guía Vatio. La información de esta web es divulgativa y orientativa: no sustituye el asesoramiento de un instalador habilitado, un técnico certificador o un asesor fiscal.</p>
+  </div>
+</footer>
+<script src="/js/main.js?v=193b22bb" defer></script>
+</body>
+</html>
