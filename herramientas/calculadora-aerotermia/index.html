@@ -160,8 +160,8 @@
 <thead><tr><th>Sistema</th><th class="num">Rendimiento</th><th class="num">Precio por defecto</th><th class="num">Fijos + mantenimiento</th></tr></thead>
 <tbody>
 <tr><td>Gas natural (condensación)</td><td class="num">92 %</td><td class="num">0,08 €/kWh</td><td class="num">110 € + 90 €</td></tr>
-<tr><td>Gasóleo</td><td class="num">85 %</td><td class="num">0,11 €/kWh (≈ 1,10 €/litro)</td><td class="num">0 € + 120 €</td></tr>
-<tr><td>Propano</td><td class="num">90 %</td><td class="num">0,13 €/kWh</td><td class="num">60 € + 90 €</td></tr>
+<tr><td>Gasóleo</td><td class="num">85 %</td><td class="num">0,16 €/kWh (≈ 1,60 €/litro)</td><td class="num">0 € + 120 €</td></tr>
+<tr><td>Propano a granel</td><td class="num">90 %</td><td class="num">0,16 €/kWh (≈ 2,05 €/kg)</td><td class="num">60 € + 90 €</td></tr>
 <tr><td>Radiadores eléctricos y termo</td><td class="num">100 %</td><td class="num">precio de la luz</td><td class="num">0 €</td></tr>
 </tbody>
 </table></div>
@@ -176,8 +176,8 @@
   var AJ = { A: 0.3, B: 0.2, C: 0, D: -0.1, E: -0.3 };
   var SIS = {
     gas: { r: 0.92, p: 0.08, fijo: 110, mant: 90, hint: 'Gas natural con impuestos.', cae: true },
-    gasoleo: { r: 0.85, p: 0.11, fijo: 0, mant: 120, hint: '1 litro de gasóleo ≈ 10 kWh: 1,10 €/l ≈ 0,11 €/kWh.', cae: true },
-    propano: { r: 0.90, p: 0.13, fijo: 60, mant: 90, hint: 'Propano canalizado o a granel.', cae: true },
+    gasoleo: { r: 0.85, p: 0.16, fijo: 0, mant: 120, hint: '1 litro de gasóleo ≈ 10 kWh: 1,60 €/l ≈ 0,16 €/kWh (precio de septiembre de 2026).', cae: true },
+    propano: { r: 0.90, p: 0.16, fijo: 60, mant: 90, hint: 'Propano a granel (≈ 2,05 €/kg). El canalizado suele salir más barato.', cae: true },
     elec: { r: 1, p: null, fijo: 0, mant: 0, hint: 'Se usa el precio de la luz.', cae: false }
   };
   var SIZES = [4, 6, 8, 10, 12, 14, 16, 20, 25, 30];
