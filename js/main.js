@@ -34,6 +34,61 @@
   });
 
 
+
+  // Los campos de las calculadoras vienen rellenos con un ejemplo para que el
+  // resultado se vea nada mas entrar. Se pintan en gris para que se note que no
+  // son datos del usuario, y al pulsar en uno se selecciona todo: asi se escribe
+  // encima en vez de anadir digitos detras.
+  var forms = document.querySelectorAll('.calc-form');
+  if (forms.length) {
+    var marca = function (c) {
+      if (c.dataset.ejemploVisto) { return; }
+      c.dataset.ejemploVisto = '1';
+      var vacio = (c.tagName === 'INPUT' && c.value === '');
+      if (!vacio && c.type !== 'checkbox') { c.classList.add('ejemplo'); }
+    };
+    var mios = function (c) { c.classList.remove('ejemplo'); c.dataset.ejemploVisto = '1'; };
+
+    var repasa = function () {
+      forms.forEach(function (f) {
+        f.querySelectorAll('input, select').forEach(marca);
+      });
+    };
+    repasa();
+    // La calculadora de consumo crea sus filas por JS: se repasa al terminar.
+    window.setTimeout(repasa, 0);
+
+    forms.forEach(function (f) {
+      // select() no es fiable en <input type=number> ni en movil, asi que
+      // ademas se vacia el campo al primer caracter: se escribe encima.
+      var seleccionable = function (c) {
+        return c.classList && c.classList.contains('ejemplo') && c.tagName === 'INPUT' &&
+               (c.type === 'number' || c.type === 'text');
+      };
+      var seleccionaTodo = function (e) {
+        var c = e.target;
+        if (!seleccionable(c)) { return; }
+        window.setTimeout(function () { try { c.select(); } catch (err) {} }, 0);
+      };
+      f.addEventListener('focusin', seleccionaTodo);
+      f.addEventListener('click', seleccionaTodo);
+      f.addEventListener('keydown', function (e) {
+        var c = e.target;
+        if (!seleccionable(c)) { return; }
+        if (e.ctrlKey || e.metaKey || e.altKey) { return; }
+        if (e.key && e.key.length === 1) { c.value = ''; }
+      });
+      f.addEventListener('input', function (e) { if (e.target.classList) { mios(e.target); } });
+      f.addEventListener('change', function (e) { if (e.target.classList) { mios(e.target); } });
+      f.addEventListener('click', function (e) {
+        // los botones de ejemplo rapido rellenan varios campos a la vez
+        if (e.target.closest && e.target.closest('.presets, .btn-small')) {
+          window.setTimeout(repasa, 0);
+        }
+      });
+    });
+  }
+
   // Barra flotante con el resultado de la calculadora (solo en movil).
   // El formulario es largo: sin esto cambias un dato y el numero queda fuera
   // de pantalla. La barra repite la cifra principal y lleva al detalle.
