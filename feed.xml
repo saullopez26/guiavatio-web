@@ -5,8 +5,24 @@
   <link>https://guiavatio.es/</link>
   <description>Aerotermia, placas solares, ayudas y ahorro energético explicados con números</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 24 Sep 2026 15:23:38 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 15:41:58 +0000</lastBuildDate>
   <atom:link href="https://guiavatio.es/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Bomba de calor aire-aire para calefacción: consumo real en invierno</title>
+    <link>https://guiavatio.es/aerotermia/bomba-de-calor-aire-aire/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/bomba-de-calor-aire-aire/</guid>
+    <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Cuánto consume calentar con el aire acondicionado en invierno, cómo calcularlo con el SCOP, qué cuesta al año y cómo usarlo para gastar lo mínimo.</description>
+  </item>
+  <item>
+    <title>Radiadores eléctricos de bajo consumo: ¿existen de verdad?</title>
+    <link>https://guiavatio.es/ahorro-energetico/radiadores-electricos-bajo-consumo/</link>
+    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/radiadores-electricos-bajo-consumo/</guid>
+    <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Ahorro energético en casa</category>
+    <description>Ningún radiador eléctrico consume menos que otro para dar el mismo calor: todos rinden al 100 %. Qué se ahorra de verdad, cuánto cuestan al año y cuándo compensan.</description>
+  </item>
   <item>
     <title>Calefacción más barata en 2026: coste real por kWh de cada sistema</title>
     <link>https://guiavatio.es/ahorro-energetico/calefaccion-mas-barata/</link>
