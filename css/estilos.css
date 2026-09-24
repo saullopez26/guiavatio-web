@@ -129,6 +129,8 @@ h1,h2,h3{line-height:1.2;letter-spacing:-.015em;color:var(--ink)}
 .chip svg{width:20px;height:20px;fill:none;stroke:var(--c);stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 .chip:hover{border-color:var(--c);color:var(--ink)}
 @media (max-width:640px){.cat-hero-inner{flex-direction:column;gap:10px}}
+/* movil: el icono es decorativo y empuja las tarjetas fuera de la primera pantalla */
+@media (max-width:700px){.cat-hero-inner .cat-icon{display:none}.cat-hero{padding-bottom:22px}.cat-hero h1{margin:2px 0 10px}}
 
 /* ---------- artículo ---------- */
 .article-grid{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:56px;align-items:start;margin-top:8px}
