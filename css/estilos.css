@@ -169,6 +169,12 @@ h1,h2,h3{line-height:1.2;letter-spacing:-.015em;color:var(--ink)}
 .prose figure{margin:1.8em 0}
 .prose figure svg{display:block;width:100%;height:auto}
 .prose figcaption{font-size:.9rem;color:var(--ink-3);margin-top:8px;text-align:center}
+/* fotos con licencia libre */
+.prose figure.foto{margin:1.9em auto}
+.prose figure.foto img{display:block;width:100%;height:auto;border-radius:var(--radius-s);background:#eceae3}
+.prose figure.foto figcaption{text-align:left;line-height:1.45}
+.prose .credito{display:block;font-size:.76rem;color:var(--ink-3);margin-top:4px;opacity:.9}
+.prose .credito a{color:inherit;text-decoration-color:rgba(0,0,0,.25)}
 
 .table-wrap{overflow-x:auto;margin:1.3em 0 1.5em;border:1px solid var(--line);border-radius:var(--radius-s);background:#fff;-webkit-overflow-scrolling:touch}
 .prose table{border-collapse:collapse;width:100%;font-size:.95rem;line-height:1.45;min-width:520px}
