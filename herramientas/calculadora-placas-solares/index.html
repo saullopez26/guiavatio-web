@@ -174,7 +174,7 @@
 <li><strong>Potencia:</strong> consumo × cobertura elegida ÷ producción específica, redondeada a un número entero de paneles.</li>
 <li><strong>Autoconsumo directo:</strong> porcentaje de la producción que se consume en el momento según tu perfil (30–55&nbsp;%), corregido por el tamaño de la instalación y limitado a la parte de tu consumo que ocurre en horas de sol.</li>
 <li><strong>Compensación:</strong> excedentes × precio de compensación, con un tope igual al valor aproximado de la energía que compras a la red (sin peajes ni cargos), como establece el Real Decreto 244/2019.</li>
-<li><strong>Coste:</strong> precio de mercado de 2026 por kWp según el tamaño (de unos 1.700&nbsp;€/kWp en instalaciones de 2&nbsp;kWp a unos 1.100&nbsp;€/kWp en 8&nbsp;kWp), con un margen de ±12&nbsp;%. La batería se valora en unos 700&nbsp;€ por kWh útil instalado.</li>
+<li><strong>Coste:</strong> precio de mercado de 2026 por kWp según el tamaño (de unos 1.900&nbsp;€/kWp en instalaciones de 2&nbsp;kWp a unos 1.200&nbsp;€/kWp en 8&nbsp;kWp, contrastado en septiembre de 2026 con presupuestos reales publicados por Habitissimo y SotySolar), con un margen de ±12&nbsp;%. La batería se valora en unos 1.000&nbsp;€ fijos (módulo de control e instalación) más 520&nbsp;€ por kWh útil: unos 3.600&nbsp;€ para 5&nbsp;kWh y 6.200&nbsp;€ para 10&nbsp;kWh, en línea con los precios de tienda de septiembre de 2026.</li>
 <li><strong>Amortización:</strong> coste neto (tras la deducción del IRPF si la marcas) ÷ ahorro anual, sin actualizar precios.</li>
 </ul>
 
@@ -187,7 +187,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var MESES = ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
   var REPARTO = [5.5, 6.5, 8.5, 9.3, 10.3, 10.6, 11.2, 10.5, 9.0, 7.5, 5.8, 5.3];
-  var TRAMOS = [[1, 1850], [1.5, 1800], [2, 1700], [3, 1450], [4, 1300], [5, 1220], [6, 1170], [8, 1100], [10, 1050], [15, 1000]];
+  var TRAMOS = [[1, 2100], [1.5, 2000], [2, 1900], [3, 1600], [4, 1400], [5, 1350], [6, 1300], [8, 1200], [10, 1150], [15, 1050]];
   var eur = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0, useGrouping: 'always' });
   var num = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0, useGrouping: 'always' });
   var dec = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1, minimumFractionDigits: 1 });
@@ -225,7 +225,7 @@
     var a1 = self * precio, ahorro = a1 + compVal;
     var eurKwp = parseFloat($('fv-eurkwp').value);
     if (!isFinite(eurKwp) || eurKwp <= 0) eurKwp = precioKwp(kwp);
-    var coste = kwp * eurKwp + (bat ? Math.max(2000, batKwh * 700) : 0);
+    var coste = kwp * eurKwp + (bat ? Math.max(2000, 1000 + batKwh * 520) : 0);
     var irpf = $('fv-irpf').checked ? Math.min(coste, 5000) * 0.10 : 0;
     var amort = ahorro > 0 ? (coste - irpf) / ahorro : Infinity;
 

@@ -5,8 +5,56 @@
   <link>https://guiavatio.es/</link>
   <description>Aerotermia, placas solares, ayudas y ahorro energético explicados con números</description>
   <language>es-es</language>
-  <lastBuildDate>Sat, 26 Sep 2026 15:25:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 15:35:02 +0000</lastBuildDate>
   <atom:link href="https://guiavatio.es/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Bomba de calor aire-aire para calefacción: consumo real en invierno</title>
+    <link>https://guiavatio.es/aerotermia/bomba-de-calor-aire-aire/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/bomba-de-calor-aire-aire/</guid>
+    <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Cuánto consume calentar con el aire acondicionado en invierno, cómo calcularlo con el SCOP, qué cuesta al año y cómo usarlo para gastar lo mínimo.</description>
+  </item>
+  <item>
+    <title>Calefacción más barata en 2026: coste real por kWh de cada sistema</title>
+    <link>https://guiavatio.es/ahorro-energetico/calefaccion-mas-barata/</link>
+    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/calefaccion-mas-barata/</guid>
+    <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Ahorro energético en casa</category>
+    <description>Comparamos el coste real por kWh de calor de gas, gasóleo, butano, propano, pellets, leña, radiadores eléctricos y aerotermia con los precios de septiembre de 2026.</description>
+  </item>
+  <item>
+    <title>¿Se prohíben las calderas de gas? Lo que dice de verdad la normativa</title>
+    <link>https://guiavatio.es/aerotermia/calderas-de-gas-prohibicion/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/calderas-de-gas-prohibicion/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Qué calderas están prohibidas de verdad: las atmosféricas desde 2010 y las que no son de condensación desde 2015. Las estancas, no. Y qué llega en 2030 y 2040.</description>
+  </item>
+  <item>
+    <title>Aerotermia o caldera de gas: comparativa de costes a 15 años</title>
+    <link>https://guiavatio.es/aerotermia/aerotermia-vs-caldera-de-gas/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/aerotermia-vs-caldera-de-gas/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Coste total a 15 años de la aerotermia frente a una caldera de gas de condensación, con precios de 2026 y ayudas: en qué escenarios gana cada una.</description>
+  </item>
+  <item>
+    <title>Aerotermia en un piso: opciones, permisos de la comunidad y precios</title>
+    <link>https://guiavatio.es/aerotermia/aerotermia-en-piso/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/aerotermia-en-piso/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Aerotermia en un piso: opciones (ACS, aire-aire, aire-agua o centralizada), dónde colocar la unidad exterior, mayoría de la comunidad desde 2026 y precios.</description>
+  </item>
+  <item>
+    <title>¿Merece la pena una batería para tus placas solares?</title>
+    <link>https://guiavatio.es/placas-solares/baterias-para-placas-solares/</link>
+    <guid isPermaLink="true">https://guiavatio.es/placas-solares/baterias-para-placas-solares/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Placas solares y autoconsumo</category>
+    <description>Cuánto cuesta una batería para placas solares en 2026, cuánto ahorra de verdad, si sirve en un apagón y en qué casos compensa frente a los excedentes.</description>
+  </item>
   <item>
     <title>Aerotermia con radiadores o con suelo radiante: qué funciona mejor</title>
     <link>https://guiavatio.es/aerotermia/aerotermia-radiadores-o-suelo-radiante/</link>
@@ -24,54 +72,6 @@
     <description>Cómo calcular el consumo eléctrico de la aerotermia con la demanda de tu casa y el SCOP. Tres ejemplos resueltos, consumo mes a mes y trucos para gastar menos.</description>
   </item>
   <item>
-    <title>Precio de las placas solares en 2026 y cuándo se amortizan</title>
-    <link>https://guiavatio.es/placas-solares/precio-placas-solares/</link>
-    <guid isPermaLink="true">https://guiavatio.es/placas-solares/precio-placas-solares/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Placas solares y autoconsumo</category>
-    <description>Cuánto cuesta instalar placas solares en 2026 según la potencia, qué incluye el presupuesto, cuánto se ahorra y en cuántos años se amortiza.</description>
-  </item>
-  <item>
-    <title>¿Se prohíben las calderas de gas? Lo que dice de verdad la normativa</title>
-    <link>https://guiavatio.es/aerotermia/calderas-de-gas-prohibicion/</link>
-    <guid isPermaLink="true">https://guiavatio.es/aerotermia/calderas-de-gas-prohibicion/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Aerotermia y calefacción</category>
-    <description>Qué calderas están prohibidas de verdad: las atmosféricas desde 2010 y las que no son de condensación desde 2015. Las estancas, no. Y qué llega en 2030 y 2040.</description>
-  </item>
-  <item>
-    <title>Bomba de calor aire-aire para calefacción: consumo real en invierno</title>
-    <link>https://guiavatio.es/aerotermia/bomba-de-calor-aire-aire/</link>
-    <guid isPermaLink="true">https://guiavatio.es/aerotermia/bomba-de-calor-aire-aire/</guid>
-    <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Aerotermia y calefacción</category>
-    <description>Cuánto consume calentar con el aire acondicionado en invierno, cómo calcularlo con el SCOP, qué cuesta al año y cómo usarlo para gastar lo mínimo.</description>
-  </item>
-  <item>
-    <title>Radiadores eléctricos de bajo consumo: ¿existen de verdad?</title>
-    <link>https://guiavatio.es/ahorro-energetico/radiadores-electricos-bajo-consumo/</link>
-    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/radiadores-electricos-bajo-consumo/</guid>
-    <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Ahorro energético en casa</category>
-    <description>Ningún radiador eléctrico consume menos que otro para dar el mismo calor: todos rinden al 100 %. Qué se ahorra de verdad, cuánto cuestan al año y cuándo compensan.</description>
-  </item>
-  <item>
-    <title>Calefacción más barata en 2026: coste real por kWh de cada sistema</title>
-    <link>https://guiavatio.es/ahorro-energetico/calefaccion-mas-barata/</link>
-    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/calefaccion-mas-barata/</guid>
-    <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Ahorro energético en casa</category>
-    <description>Comparamos el coste real por kWh de calor de gas, gasóleo, butano, propano, pellets, leña, radiadores eléctricos y aerotermia con los precios de septiembre de 2026.</description>
-  </item>
-  <item>
-    <title>Aerotermia o caldera de gas: comparativa de costes a 15 años</title>
-    <link>https://guiavatio.es/aerotermia/aerotermia-vs-caldera-de-gas/</link>
-    <guid isPermaLink="true">https://guiavatio.es/aerotermia/aerotermia-vs-caldera-de-gas/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Aerotermia y calefacción</category>
-    <description>Coste total a 15 años de la aerotermia frente a una caldera de gas de condensación, con precios de 2026 y ayudas: en qué escenarios gana cada una.</description>
-  </item>
-  <item>
     <title>Precio de la aerotermia en 2026: cuánto cuesta instalarla según tu vivienda</title>
     <link>https://guiavatio.es/aerotermia/precio-aerotermia/</link>
     <guid isPermaLink="true">https://guiavatio.es/aerotermia/precio-aerotermia/</guid>
@@ -80,12 +80,28 @@
     <description>Precios reales de la aerotermia en 2026 por tipo de vivienda y potencia, desglose de un presupuesto, costes ocultos y cuánto baja el precio con IRPF, CAE e ICIO.</description>
   </item>
   <item>
+    <title>Precio de las placas solares en 2026 y cuándo se amortizan</title>
+    <link>https://guiavatio.es/placas-solares/precio-placas-solares/</link>
+    <guid isPermaLink="true">https://guiavatio.es/placas-solares/precio-placas-solares/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Placas solares y autoconsumo</category>
+    <description>Cuánto cuesta instalar placas solares en 2026 según la potencia, qué incluye el presupuesto, cuánto se ahorra y en cuántos años se amortiza.</description>
+  </item>
+  <item>
     <title>Qué es la aerotermia, cómo funciona y cuándo compensa</title>
     <link>https://guiavatio.es/aerotermia/que-es-la-aerotermia/</link>
     <guid isPermaLink="true">https://guiavatio.es/aerotermia/que-es-la-aerotermia/</guid>
     <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
     <category>Aerotermia y calefacción</category>
     <description>Qué es la aerotermia, cómo funciona una bomba de calor, qué tipos hay, cuánto ahorra y en qué casos compensa frente al gas o el gasóleo. Guía actualizada a 2026.</description>
+  </item>
+  <item>
+    <title>Radiadores eléctricos de bajo consumo: ¿existen de verdad?</title>
+    <link>https://guiavatio.es/ahorro-energetico/radiadores-electricos-bajo-consumo/</link>
+    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/radiadores-electricos-bajo-consumo/</guid>
+    <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Ahorro energético en casa</category>
+    <description>Ningún radiador eléctrico consume menos que otro para dar el mismo calor: todos rinden al 100 %. Qué se ahorra de verdad, cuánto cuestan al año y cuándo compensan.</description>
   </item>
   <item>
     <title>COP, SCOP, SEER y EER: cómo leer la eficiencia de una bomba de calor</title>
@@ -112,28 +128,12 @@
     <description>Placas solares en una comunidad de vecinos: modalidades, mayoría necesaria desde 2026, reparto de la energía, coste por vecino, ayudas y pasos.</description>
   </item>
   <item>
-    <title>Aerotermia en un piso: opciones, permisos de la comunidad y precios</title>
-    <link>https://guiavatio.es/aerotermia/aerotermia-en-piso/</link>
-    <guid isPermaLink="true">https://guiavatio.es/aerotermia/aerotermia-en-piso/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Aerotermia y calefacción</category>
-    <description>Aerotermia en un piso: opciones (ACS, aire-aire, aire-agua o centralizada), dónde colocar la unidad exterior, mayoría de la comunidad desde 2026 y precios.</description>
-  </item>
-  <item>
     <title>Aislamiento térmico de la vivienda: qué reformas ahorran más por euro</title>
     <link>https://guiavatio.es/ahorro-energetico/aislamiento-termico-vivienda/</link>
     <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/aislamiento-termico-vivienda/</guid>
     <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
     <category>Ahorro energético en casa</category>
     <description>Por dónde pierde calor tu casa y qué reformas de aislamiento ahorran más por euro: sellado, cubierta, insuflado, SATE y ventanas. Precios de 2026.</description>
-  </item>
-  <item>
-    <title>¿Merece la pena una batería para tus placas solares?</title>
-    <link>https://guiavatio.es/placas-solares/baterias-para-placas-solares/</link>
-    <guid isPermaLink="true">https://guiavatio.es/placas-solares/baterias-para-placas-solares/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Placas solares y autoconsumo</category>
-    <description>Cuánto cuesta una batería para placas solares en 2026, cuánto ahorra de verdad, si sirve en un apagón y en qué casos compensa frente a los excedentes.</description>
   </item>
   <item>
     <title>Cuánto consume cada electrodoméstico: tabla en kWh y euros</title>
