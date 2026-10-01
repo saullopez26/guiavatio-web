@@ -5,8 +5,16 @@
   <link>https://guiavatio.es/</link>
   <description>Aerotermia, placas solares, ayudas y ahorro energético explicados con números</description>
   <language>es-es</language>
-  <lastBuildDate>Mon, 28 Sep 2026 17:59:57 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 14:18:30 +0000</lastBuildDate>
   <atom:link href="https://guiavatio.es/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Cuánto consume un termo eléctrico y cómo gastar menos</title>
+    <link>https://guiavatio.es/ahorro-energetico/consumo-termo-electrico/</link>
+    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/consumo-termo-electrico/</guid>
+    <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
+    <category>Ahorro energético en casa</category>
+    <description>Cuánto consume un termo eléctrico según las personas de la casa, en kWh y en euros, qué parte se pierde sin usarlo y qué trucos ahorran de verdad.</description>
+  </item>
   <item>
     <title>Precio del gasóleo de calefacción: cuánto cuesta de verdad y si va a bajar</title>
     <link>https://guiavatio.es/ahorro-energetico/precio-gasoleo-calefaccion/</link>
@@ -21,7 +29,31 @@
     <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/calefaccion-mas-barata/</guid>
     <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
     <category>Ahorro energético en casa</category>
-    <description>Comparamos el coste real por kWh de calor de gas, gasóleo, butano, propano, pellets, leña, radiadores eléctricos y aerotermia con los precios de septiembre de 2026.</description>
+    <description>Comparamos el coste real por kWh de calor de gas, gasóleo, butano, propano, pellets, leña, radiadores eléctricos y aerotermia con precios de octubre de 2026.</description>
+  </item>
+  <item>
+    <title>Cuánto consume cada electrodoméstico: tabla en kWh y euros</title>
+    <link>https://guiavatio.es/ahorro-energetico/consumo-electrodomesticos/</link>
+    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/consumo-electrodomesticos/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Ahorro energético en casa</category>
+    <description>Tabla con el consumo real de frigorífico, lavadora, termo, horno, aire acondicionado y demás aparatos en kWh y euros al año, cómo calcularlo y cómo gastar menos.</description>
+  </item>
+  <item>
+    <title>Batería virtual: qué es, cómo funciona y cuándo compensa</title>
+    <link>https://guiavatio.es/placas-solares/bateria-virtual/</link>
+    <guid isPermaLink="true">https://guiavatio.es/placas-solares/bateria-virtual/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Placas solares y autoconsumo</category>
+    <description>Qué es la batería virtual de las placas solares, cómo funciona con los excedentes, qué ofrecen Octopus, Repsol, Endesa e Iberdrola y cuándo compensa.</description>
+  </item>
+  <item>
+    <title>Precio de la aerotermia en 2026: cuánto cuesta instalarla según tu vivienda</title>
+    <link>https://guiavatio.es/aerotermia/precio-aerotermia/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/precio-aerotermia/</guid>
+    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Precios reales de la aerotermia en 2026 por tipo de vivienda y potencia, desglose de un presupuesto, costes ocultos y cuánto baja el precio con IRPF, CAE e ICIO.</description>
   </item>
   <item>
     <title>¿Se prohíben las calderas de gas? Lo que dice de verdad la normativa</title>
@@ -38,14 +70,6 @@
     <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
     <category>Aerotermia y calefacción</category>
     <description>Coste total a 15 años de la aerotermia frente a una caldera de gas de condensación, con precios de 2026 y ayudas: en qué escenarios gana cada una.</description>
-  </item>
-  <item>
-    <title>Precio de la aerotermia en 2026: cuánto cuesta instalarla según tu vivienda</title>
-    <link>https://guiavatio.es/aerotermia/precio-aerotermia/</link>
-    <guid isPermaLink="true">https://guiavatio.es/aerotermia/precio-aerotermia/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Aerotermia y calefacción</category>
-    <description>Precios reales de la aerotermia en 2026 por tipo de vivienda y potencia, desglose de un presupuesto, costes ocultos y cuánto baja el precio con IRPF, CAE e ICIO.</description>
   </item>
   <item>
     <title>Qué es la aerotermia, cómo funciona y cuándo compensa</title>
@@ -144,28 +168,12 @@
     <description>Por dónde pierde calor tu casa y qué reformas de aislamiento ahorran más por euro: sellado, cubierta, insuflado, SATE y ventanas. Precios de 2026.</description>
   </item>
   <item>
-    <title>Cuánto consume cada electrodoméstico: tabla en kWh y euros</title>
-    <link>https://guiavatio.es/ahorro-energetico/consumo-electrodomesticos/</link>
-    <guid isPermaLink="true">https://guiavatio.es/ahorro-energetico/consumo-electrodomesticos/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Ahorro energético en casa</category>
-    <description>Tabla con el consumo real de frigorífico, lavadora, termo, horno, aire acondicionado y demás aparatos en kWh y euros al año, cómo calcularlo y cómo gastar menos.</description>
-  </item>
-  <item>
     <title>Bonificación del IBI y el ICIO por placas solares y aerotermia</title>
     <link>https://guiavatio.es/ayudas/bonificacion-ibi-icio-placas-solares-aerotermia/</link>
     <guid isPermaLink="true">https://guiavatio.es/ayudas/bonificacion-ibi-icio-placas-solares-aerotermia/</guid>
     <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
     <category>Ayudas, deducciones y CAE</category>
     <description>Hasta el 50 % del IBI y el 95 % del ICIO: bonificaciones municipales por placas solares y, desde 2026, por aerotermia. Requisitos y cómo pedirlas.</description>
-  </item>
-  <item>
-    <title>Batería virtual: qué es, cómo funciona y cuándo compensa</title>
-    <link>https://guiavatio.es/placas-solares/bateria-virtual/</link>
-    <guid isPermaLink="true">https://guiavatio.es/placas-solares/bateria-virtual/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Placas solares y autoconsumo</category>
-    <description>Qué es la batería virtual del autoconsumo, en qué se diferencia de la compensación de excedentes, qué condiciones revisar y cómo saber si te compensa.</description>
   </item>
   <item>
     <title>Qué potencia de luz contratar: cómo calcularla y cuánto puedes ahorrar</title>
