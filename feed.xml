@@ -5,8 +5,24 @@
   <link>https://guiavatio.es/</link>
   <description>Aerotermia, placas solares, ayudas y ahorro energético explicados con números</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 01 Oct 2026 14:18:30 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 13:36:40 +0000</lastBuildDate>
   <atom:link href="https://guiavatio.es/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Termo aerotérmico: precio, consumo y cuándo compensa</title>
+    <link>https://guiavatio.es/aerotermia/termo-aerotermico/</link>
+    <guid isPermaLink="true">https://guiavatio.es/aerotermia/termo-aerotermico/</guid>
+    <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+    <category>Aerotermia y calefacción</category>
+    <description>Cuánto cuesta un termo aerotérmico instalado en 2026, cuánto gasta frente a un termo eléctrico, dónde se puede poner y en cuántos años se recupera.</description>
+  </item>
+  <item>
+    <title>Bono social eléctrico 2026: descuentos, requisitos y cómo pedirlo</title>
+    <link>https://guiavatio.es/ayudas/bono-social-electrico/</link>
+    <guid isPermaLink="true">https://guiavatio.es/ayudas/bono-social-electrico/</guid>
+    <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+    <category>Ayudas, deducciones y CAE</category>
+    <description>El bono social de la luz descuenta en 2026 un 42,5 % o un 57,5 % de la factura. Requisitos de renta con el IPREM de 2026, límites de consumo y cómo pedirlo.</description>
+  </item>
   <item>
     <title>Cuánto consume un termo eléctrico y cómo gastar menos</title>
     <link>https://guiavatio.es/ahorro-energetico/consumo-termo-electrico/</link>
@@ -230,14 +246,6 @@
     <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
     <category>Ayudas, deducciones y CAE</category>
     <description>Requisitos, plazos y límites de las deducciones del IRPF del 20, 40 y 60 % por obras de eficiencia energética, prorrogadas por el RDL 7/2026.</description>
-  </item>
-  <item>
-    <title>Cuántas placas solares necesito: cálculo paso a paso para tu casa</title>
-    <link>https://guiavatio.es/placas-solares/cuantas-placas-solares-necesito/</link>
-    <guid isPermaLink="true">https://guiavatio.es/placas-solares/cuantas-placas-solares-necesito/</guid>
-    <pubDate>Sat, 19 Sep 2026 09:00:00 +0200</pubDate>
-    <category>Placas solares y autoconsumo</category>
-    <description>Calcula cuántos paneles solares necesitas según tu consumo, la radiación de tu zona y tu tejado. Método paso a paso, tablas y errores frecuentes.</description>
   </item>
 </channel>
 </rss>
